@@ -34,13 +34,13 @@
 		E839F2B023328105005BD5A2 /* DatabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839F2A923328105005BD5A2 /* DatabaseConfig.swift */; };
 		E839F2B123328105005BD5A2 /* DatabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839F2A923328105005BD5A2 /* DatabaseConfig.swift */; };
 		E839F2B223328105005BD5A2 /* DatabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839F2A923328105005BD5A2 /* DatabaseConfig.swift */; };
+		E839F2CD23352107005BD5A2 /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E839F2CC23352107005BD5A2 /* DirectToSwiftUI */; };
 		E8A2C93F23327130009F2E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C93E23327130009F2E71 /* AppDelegate.swift */; };
 		E8A2C94123327130009F2E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C94023327130009F2E71 /* SceneDelegate.swift */; };
 		E8A2C94323327130009F2E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C94223327130009F2E71 /* ContentView.swift */; };
 		E8A2C94523327131009F2E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C94423327131009F2E71 /* Assets.xcassets */; };
 		E8A2C94823327131009F2E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C94723327131009F2E71 /* Preview Assets.xcassets */; };
 		E8A2C94B23327131009F2E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C94923327131009F2E71 /* LaunchScreen.storyboard */; };
-		E8A2C954233271E8009F2E71 /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C953233271E8009F2E71 /* DirectToSwiftUI */; };
 		E8A2C95723327350009F2E71 /* PostgreSQLAdaptor in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C95623327350009F2E71 /* PostgreSQLAdaptor */; };
 		E8A2C95E23327814009F2E71 /* DVDRentalWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8A2C95D23327814009F2E71 /* DVDRentalWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E8A2C96423327814009F2E71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C96223327814009F2E71 /* Interface.storyboard */; };
@@ -53,14 +53,12 @@
 		E8A2C97A23327815009F2E71 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C97923327815009F2E71 /* NotificationView.swift */; };
 		E8A2C97C23327815009F2E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C97B23327815009F2E71 /* Assets.xcassets */; };
 		E8A2C97F23327815009F2E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C97E23327815009F2E71 /* Preview Assets.xcassets */; };
-		E8A2C993233278D4009F2E71 /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C992233278D4009F2E71 /* DirectToSwiftUI */; };
 		E8A2C995233278D5009F2E71 /* PostgreSQLAdaptor in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C994233278D5009F2E71 /* PostgreSQLAdaptor */; };
 		E8A2C99D23327A9D009F2E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C99C23327A9D009F2E71 /* AppDelegate.swift */; };
 		E8A2C99F23327A9D009F2E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C99E23327A9D009F2E71 /* ContentView.swift */; };
 		E8A2C9A123327A9D009F2E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C9A023327A9D009F2E71 /* Assets.xcassets */; };
 		E8A2C9A423327A9D009F2E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C9A323327A9D009F2E71 /* Preview Assets.xcassets */; };
 		E8A2C9A723327A9D009F2E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A2C9A523327A9D009F2E71 /* Main.storyboard */; };
-		E8A2C9B223327AC3009F2E71 /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C9B123327AC3009F2E71 /* DirectToSwiftUI */; };
 		E8A2C9B423327AC3009F2E71 /* PostgreSQLAdaptor in Frameworks */ = {isa = PBXBuildFile; productRef = E8A2C9B323327AC3009F2E71 /* PostgreSQLAdaptor */; };
 /* End PBXBuildFile section */
 
@@ -183,8 +181,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E839F2CD23352107005BD5A2 /* DirectToSwiftUI in Frameworks */,
 				E8A2C95723327350009F2E71 /* PostgreSQLAdaptor in Frameworks */,
-				E8A2C954233271E8009F2E71 /* DirectToSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A2C995233278D5009F2E71 /* PostgreSQLAdaptor in Frameworks */,
-				E8A2C993233278D4009F2E71 /* DirectToSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +199,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A2C9B423327AC3009F2E71 /* PostgreSQLAdaptor in Frameworks */,
-				E8A2C9B223327AC3009F2E71 /* DirectToSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +342,8 @@
 			);
 			name = DVDRental;
 			packageProductDependencies = (
-				E8A2C953233271E8009F2E71 /* DirectToSwiftUI */,
 				E8A2C95623327350009F2E71 /* PostgreSQLAdaptor */,
+				E839F2CC23352107005BD5A2 /* DirectToSwiftUI */,
 			);
 			productName = DVDRental;
 			productReference = E8A2C93B23327130009F2E71 /* DVDRental.app */;
@@ -403,7 +399,6 @@
 			);
 			name = "DVDRentalWatch WatchKit Extension";
 			packageProductDependencies = (
-				E8A2C992233278D4009F2E71 /* DirectToSwiftUI */,
 				E8A2C994233278D5009F2E71 /* PostgreSQLAdaptor */,
 			);
 			productName = "DVDRentalWatch WatchKit Extension";
@@ -426,7 +421,6 @@
 			);
 			name = MacRentals;
 			packageProductDependencies = (
-				E8A2C9B123327AC3009F2E71 /* DirectToSwiftUI */,
 				E8A2C9B323327AC3009F2E71 /* PostgreSQLAdaptor */,
 			);
 			productName = MacRentals;
@@ -473,8 +467,8 @@
 			);
 			mainGroup = E8A2C93223327130009F2E71;
 			packageReferences = (
-				E8A2C952233271E8009F2E71 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */,
 				E8A2C95523327350009F2E71 /* XCRemoteSwiftPackageReference "ZeeQL3PCK" */,
+				E839F2CB23352107005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */,
 			);
 			productRefGroup = E8A2C93C23327130009F2E71 /* Products */;
 			projectDirPath = "";
@@ -1050,12 +1044,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E8A2C952233271E8009F2E71 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */ = {
+		E839F2CB23352107005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/helge/dev/Swift/Direct2Swift/DirectToSwiftUI";
+			repositoryURL = "https://github.com/DirectToSwift/DirectToSwiftUI.git";
 			requirement = {
-				branch = develop;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
 			};
 		};
 		E8A2C95523327350009F2E71 /* XCRemoteSwiftPackageReference "ZeeQL3PCK" */ = {
@@ -1069,9 +1063,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E8A2C953233271E8009F2E71 /* DirectToSwiftUI */ = {
+		E839F2CC23352107005BD5A2 /* DirectToSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E8A2C952233271E8009F2E71 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
+			package = E839F2CB23352107005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
 			productName = DirectToSwiftUI;
 		};
 		E8A2C95623327350009F2E71 /* PostgreSQLAdaptor */ = {
@@ -1088,11 +1082,6 @@
 			package = E8A2C95523327350009F2E71 /* XCRemoteSwiftPackageReference "ZeeQL3PCK" */;
 			productName = PostgreSQLAdaptor;
 		};
-		E8A2C992233278D4009F2E71 /* DirectToSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E8A2C952233271E8009F2E71 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
-			productName = DirectToSwiftUI;
-		};
 		E8A2C994233278D5009F2E71 /* PostgreSQLAdaptor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E8A2C95523327350009F2E71 /* XCRemoteSwiftPackageReference "ZeeQL3PCK" */;
@@ -1106,11 +1095,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E8A2C95523327350009F2E71 /* XCRemoteSwiftPackageReference "ZeeQL3PCK" */;
 			productName = PostgreSQLAdaptor;
-		};
-		E8A2C9B123327AC3009F2E71 /* DirectToSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E8A2C952233271E8009F2E71 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
-			productName = DirectToSwiftUI;
 		};
 		E8A2C9B323327AC3009F2E71 /* PostgreSQLAdaptor */ = {
 			isa = XCSwiftPackageProductDependency;
