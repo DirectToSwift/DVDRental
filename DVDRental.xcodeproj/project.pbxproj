@@ -38,6 +38,8 @@
 		E839F2C323328703005BD5A2 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839F2C123328703005BD5A2 /* Formatters.swift */; };
 		E839F2C423328703005BD5A2 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839F2C123328703005BD5A2 /* Formatters.swift */; };
 		E839F2C723351FC6005BD5A2 /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E839F2C623351FC6005BD5A2 /* DirectToSwiftUI */; };
+		E85AE5F323353E0A00E658EB /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E85AE5F223353E0A00E658EB /* DirectToSwiftUI */; };
+		E85AE5F523353E1000E658EB /* DirectToSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E85AE5F423353E1000E658EB /* DirectToSwiftUI */; };
 		E8A2C93F23327130009F2E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C93E23327130009F2E71 /* AppDelegate.swift */; };
 		E8A2C94123327130009F2E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C94023327130009F2E71 /* SceneDelegate.swift */; };
 		E8A2C94323327130009F2E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2C94223327130009F2E71 /* ContentView.swift */; };
@@ -194,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85AE5F323353E0A00E658EB /* DirectToSwiftUI in Frameworks */,
 				E8A2C995233278D5009F2E71 /* PostgreSQLAdaptor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85AE5F523353E1000E658EB /* DirectToSwiftUI in Frameworks */,
 				E8A2C9B423327AC3009F2E71 /* PostgreSQLAdaptor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 			name = "DVDRentalWatch WatchKit Extension";
 			packageProductDependencies = (
 				E8A2C994233278D5009F2E71 /* PostgreSQLAdaptor */,
+				E85AE5F223353E0A00E658EB /* DirectToSwiftUI */,
 			);
 			productName = "DVDRentalWatch WatchKit Extension";
 			productReference = E8A2C96C23327815009F2E71 /* DVDRentalWatch WatchKit Extension.appex */;
@@ -427,6 +432,7 @@
 			name = MacRentals;
 			packageProductDependencies = (
 				E8A2C9B323327AC3009F2E71 /* PostgreSQLAdaptor */,
+				E85AE5F423353E1000E658EB /* DirectToSwiftUI */,
 			);
 			productName = MacRentals;
 			productReference = E8A2C99A23327A9D009F2E71 /* MacRentals.app */;
@@ -1072,6 +1078,16 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		E839F2C623351FC6005BD5A2 /* DirectToSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E839F2C523351FC6005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
+			productName = DirectToSwiftUI;
+		};
+		E85AE5F223353E0A00E658EB /* DirectToSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E839F2C523351FC6005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
+			productName = DirectToSwiftUI;
+		};
+		E85AE5F423353E1000E658EB /* DirectToSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E839F2C523351FC6005BD5A2 /* XCRemoteSwiftPackageReference "DirectToSwiftUI" */;
 			productName = DirectToSwiftUI;
