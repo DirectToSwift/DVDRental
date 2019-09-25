@@ -11,8 +11,24 @@
 
 _Going fully declarative_: Direct to SwiftUI.
 
-A [Direct to SwiftUI](https://github.com/DirectToSwift/DirectToSwiftUI) example application.
-This one connects against database instances of the 
+**Direct to SwiftUI**
+is an adaption of an old 
+[WebObjects](https://en.wikipedia.org/wiki/WebObjects) 
+technology called 
+[Direct to Web](https://developer.apple.com/library/archive/documentation/WebObjects/Developing_With_D2W/WalkThrough/WalkThrough.html#//apple_ref/doc/uid/TP30001015-DontLinkChapterID_5-TPXREF101).
+This time for Apple's new framework:
+[SwiftUI](https://developer.apple.com/xcode/swiftui/).
+Instant 
+[CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
+apps, configurable using 
+[a declarative rule system](http://www.alwaysrightinstitute.com/swiftuirules/),
+yet fully integrated with SwiftUI.
+
+There is a blog entry explaining how to use this:
+[Introducing Direct to SwiftUI](http://www.alwaysrightinstitute.com/directtoswiftui/).
+
+This repo is a [Direct to SwiftUI](https://github.com/DirectToSwift/DirectToSwiftUI) example application.
+It connects against database instances with the 
 [Sakila example database](https://github.com/jOOQ/jOOQ/tree/master/jOOQ-examples/Sakila),
 aka "DVDRental".
 
