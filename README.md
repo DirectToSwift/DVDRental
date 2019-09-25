@@ -11,7 +11,7 @@
 
 _Going fully declarative_: Direct to SwiftUI.
 
-A Direct to SwiftUI example application.
+A [Direct to SwiftUI](https://github.com/DirectToSwift/DirectToSwiftUI) example application.
 This one connects against database instances of the 
 [Sakila example database](https://github.com/jOOQ/jOOQ/tree/master/jOOQ-examples/Sakila),
 aka "DVDRental".
@@ -26,6 +26,29 @@ This allows D2S to provide a pretty good default ORM mapping schema
 from just the catalog.
 
 The sample contains targets to build iOS, watchOS and macOS applications.
+
+
+## What it looks like
+
+### Watch
+
+<p float="left" valign="top">
+<img width="200" src="http://www.alwaysrightinstitute.com/images/d2s/watchos-screenshots/01-homepage.png?v=2">
+<img width="200" src="http://www.alwaysrightinstitute.com/images/d2s/watchos-screenshots/02-customers.png?v=2">
+<img width="200" src="http://www.alwaysrightinstitute.com/images/d2s/watchos-screenshots/03-customer.png?v=2">
+<img width="200" src="http://www.alwaysrightinstitute.com/images/d2s/watchos-screenshots/04-movies.png?v=2">
+</p>
+
+### Phone
+
+<p float="left" valign="top">
+<img width="320" src="http://www.alwaysrightinstitute.com/images/d2s/limited-entities.png">
+<img width="320" src="http://www.alwaysrightinstitute.com/images/d2s/list-customer-default.png">
+</p>
+
+### macOS
+
+Still too ugly to show, but works in a very restricted way ;-) 
 
 
 ## Setting up PostgreSQL
