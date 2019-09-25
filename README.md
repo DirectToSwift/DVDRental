@@ -43,6 +43,11 @@ from just the catalog.
 
 The sample contains targets to build iOS, watchOS and macOS applications.
 
+There is a version of this using 
+[CoreData](https://developer.apple.com/documentation/coredata)
+instead of
+[ZeeQL](http://zeeql.io):
+[DVDRentalCoreData](https://github.com/DirectToSwift/DVDRentalCoreData).
 
 ## What it looks like
 
