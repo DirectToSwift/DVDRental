@@ -51,7 +51,7 @@
    */
   let adaptor : Adaptor = {
       let dbPath = "/tmp/dvdrental.sqlite3"
-      return SQLite3Adaptor(dbpath)
+      return SQLite3Adaptor(dbPath)
   }()
 
 #endif
