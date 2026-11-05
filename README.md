@@ -7,7 +7,6 @@
 ![macOS15](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 ![iOS13](https://img.shields.io/badge/os-iOS-green.svg?style=flat)
 ![watchOS6](https://img.shields.io/badge/os-watchOS-green.svg?style=flat)
-![Travis](https://api.travis-ci.org/DirectToSwift/DirectToSwiftUI.svg?branch=develop&style=flat)
 
 _Going fully declarative_: Direct to SwiftUI.
 
@@ -93,7 +92,7 @@ a nice UI wrapper to manage PostgreSQL databases.
 
 ```shell
 curl -o /tmp/dvdrental.zip \
-  http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
+  https://neon.com/postgresqltutorial/dvdrental.zip
 mkdir -p /tmp/dvdrental && cd /tmp/dvdrental
 tar zxf /tmp/dvdrental.zip
 tar xf  /tmp/dvdrental.tar # crazy, right?

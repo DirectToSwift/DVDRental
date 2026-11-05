@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "15 8 * * 1"
+
+jobs:
+  nextstep:
+    runs-on: macos-latest
+    steps:
+      - name: Select latest available Xcode
+        uses: maxim-lobanov/setup-xcode@v1.5.1
+        with:
+          xcode-version: latest
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Build macOS App
+        run: >-
+          xcodebuild -project DVDRental.xcodeproj
+          -scheme MacRentals -destination generic/platform=macOS
+          -configuration Debug CODE_SIGNING_ALLOWED=NO
+      - name: Build iOS App
+        run: >-
+          xcodebuild -project DVDRental.xcodeproj
+          -scheme DVDRental -destination generic/platform=iOS
+          -configuration Debug CODE_SIGNING_ALLOWED=NO
+      - name: Build watchOS App
+        run: >-
+          xcodebuild -project DVDRental.xcodeproj
+          -scheme "DVDRentalWatch WatchKit App"
+          -destination generic/platform=watchOS
+          -configuration Debug CODE_SIGNING_ALLOWED=NO
