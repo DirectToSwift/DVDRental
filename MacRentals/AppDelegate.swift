@@ -21,12 +21,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     // Create the window and set the content view. 
     window = NSWindow(
-        contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
+        contentRect: NSRect(x: 0, y: 0, width: 1000, height: 700),
         styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
         backing: .buffered, defer: false)
+    let hostingController = NSHostingController(rootView: contentView)
+    hostingController.sceneBridgingOptions = .all // SwiftUI toolbar and title
+    window.contentViewController = hostingController
+    window.contentMinSize = NSSize(width: 640, height: 400)
+    window.setContentSize(NSSize(width: 1000, height: 700)) // VC resizes window
     window.center()
     window.setFrameAutosaveName("Main Window")
-    window.contentView = NSHostingView(rootView: contentView)
     window.makeKeyAndOrderFront(nil)
   }
 

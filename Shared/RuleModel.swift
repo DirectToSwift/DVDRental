@@ -47,6 +47,8 @@ let ruleModel : RuleModel = [
                 => \.displayPropertyKeys <= [ "firstName", "address.phone" ],
   \.propertyKey == "address.phone"
                 => \.displayNameForProperty <= "Phone",
+  \.propertyKey == "activebool"
+                => \.displayNameForProperty <= "Active Flag",
 
   
   // MARK: - Custom Page View
